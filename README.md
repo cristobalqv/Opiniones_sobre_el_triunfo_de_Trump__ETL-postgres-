@@ -1,13 +1,13 @@
 # Opiniones_sobre_el_triunfo_de_Trump__ETL-postgres-
 Procedimiento de extracción, transformación y carga de datos obtenidos de reddit sobre la victoria de Donald Trump
 
-[![](trump)](https://github.com/cristobalqv/Opiniones_sobre_el_triunfo_de_Trump__ETL-postgres-/blob/main/reddit/varios/1.png)
+[![trump](trump "trump")](https://github.com/cristobalqv/Opiniones_sobre_el_triunfo_de_Trump__ETL-postgres-/blob/main/reddit/varios/1.png "trump")
 
 El siguiente proyecto consistió en la creación de un procedimiento ETL de las opiniones y comentarios en el foro [reddit](https://www.reddit.com/ "reddit") sobre la victoria de Donald Trump en las elecciones 2024 de Estados Unidos. De esta forma, se extrajeron datos de los comentarios realizados sobre este evento mediante la API del sitio web, se transformaron para poder procesarlos y se almacenaron en una base de datos en Postgresql. Posterior a esto, se utilizaron bibliotecas especializadas para el análisis de texto y poder tener una visión generalizada sobre la apreciación de este acontecimiento para los usuarios de reddit.
 
 [enlace al artículo](https://www.reddit.com/r/politics/comments/1gl0ty4/america_will_regret_its_decision_to_reelect/ "enlace al artículo")
 
-️###⚙️Características
+️## Características
 
 ⛏️Extracción de datos desde la API de reddit
 👮‍♂️ Creación de un super-usuario del blog (puede otorgar permisos 🔑)
