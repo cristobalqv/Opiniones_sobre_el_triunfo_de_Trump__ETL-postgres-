@@ -6,10 +6,10 @@ El siguiente proyecto consistió en la creación de un procedimiento ETL de las 
 
 ## ️⚙️Características y herramientas
 
-⛏️Extracción de datos desde la API de reddit
-🔄Transformación de los datos para un mejor análisis
-🐘Carga a una base de datos Postgres
-💬Análisis de sentimiento de los comentarios (negativo, neutral, positivo)🚦
+- ⛏️Extracción de datos desde la API de reddit
+- 🔄Transformación de los datos para un análisis efectivo
+- 🐘Carga a una base de datos Postgres
+- 💬Análisis de sentimiento de los comentarios (negativo, neutral, positivo)🚦 mediante herramientas de Machine Learning
 
 ## 🗒️Estructura del proyecto y funcionamiento del código </>
 
@@ -49,7 +49,7 @@ Los archivos y directorios del proyecto más relevantes para la lógica, funcion
 
 [reddit/src/data/extractors.py](https://github.com/cristobalqv/Opiniones_sobre_el_triunfo_de_Trump__ETL-postgres-/blob/main/reddit/src/data/main.py "reddit/src/data/extractors.py") Script en el que se ejecuta todo el procedimiento ETL
 
-[reddit/src/utils/utils.py](https://github.com/cristobalqv/Opiniones_sobre_el_triunfo_de_Trump__ETL-postgres-/blob/main/reddit/src/utils/utils.py "reddit/src/utils/utils.py")
+[reddit/src/utils/utils.py](https://github.com/cristobalqv/Opiniones_sobre_el_triunfo_de_Trump__ETL-postgres-/blob/main/reddit/src/utils/utils.py "reddit/src/utils/utils.py") Funciones de transformación y carga de datos
 
 [reddit/data/processed/analisis.ipynb](https://github.com/cristobalqv/Opiniones_sobre_el_triunfo_de_Trump__ETL-postgres-/blob/main/reddit/data/processed/analisis.ipynb "reddit/data/processed/analisis.ipynb") Jupyter Notebook que contiene el análisis de sentimiento de los comentarios de los usuarios de reddit
 
@@ -70,5 +70,6 @@ git push origin feature/nueva-funcionalidad
 ** Envía un Pull Request.**
 
 
-📜 Licencia
+## 📜 Licencia
+
 Este proyecto está licenciado bajo la Licencia MIT, lo que permite su libre uso y modificación con fines personales o comerciales.
