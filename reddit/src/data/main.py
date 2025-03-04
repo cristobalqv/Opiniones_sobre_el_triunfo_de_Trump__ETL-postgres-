@@ -24,12 +24,12 @@ credenciales_postgres = {
 
 if __name__ == '__main__':
 
+    #EXTRAER
     reddit = praw.Reddit(
         client_id = credenciales_reddit['client_id'],
         client_secret = credenciales_reddit['client_secret'],
         user_agent = credenciales_reddit['user_agent']
     )
-
     loader = CommentDownloader(reddit)
     post_id = '1gl0ty4'
     df = loader.download_all_comments(
@@ -38,12 +38,13 @@ if __name__ == '__main__':
         pause_seconds=62
     )
 
-
+    #TRANSFORMAR
     df=pd.read_csv('reddit/data/raw/all_comments.csv')
     transformar = TransformarData(df)
     dataframe_final = transformar.limpieza_data()
 
 
+    #CARGAR
     schema = 'reddit'
     nombre_tabla = 'comentarios_procesados'
     conectar_y_cargar = ConexionYCargaPostgres(credenciales_postgres, schema)
