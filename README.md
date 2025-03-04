@@ -4,16 +4,15 @@ El siguiente proyecto consistió en la creación de un procedimiento ETL de las 
 
 [enlace al artículo](https://www.reddit.com/r/politics/comments/1gl0ty4/america_will_regret_its_decision_to_reelect/ "enlace al artículo")
 
-## ️Características
+## ️⚙️Características
 
 ⛏️Extracción de datos desde la API de reddit
-👮‍♂️ Creación de un super-usuario del blog (puede otorgar permisos 🔑)
-👤 Creación de usuarios por parte de administrador o persona natural
-📙Agregar libros, usuarios👤 y autores✒️
-🔄Generar un sistema de préstamo de libros📚
 
 
-🗒️ Estructura del proyecto y funcionamiento del código </>
+
+## 🗒️Estructura del proyecto y funcionamiento del código </>
+
+```
 PROYECTO/
 │
 ├── biblioteca/                           
@@ -36,6 +35,7 @@ PROYECTO/
 ├── venv/                                    # Entorno virtual de Python
 ├── LICENSE                     
 └── manage.py                           # Comando de gestión de Django
+```
 
 Los archivos y directorios del proyecto más relevantes para la lógica, funcionamiento e interacción con la API son:
 
